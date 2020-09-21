@@ -1,0 +1,41 @@
+About this Exercise
+This coding problem is intentionally very simple. 
+We take for granted that you can decompose problems, devise algorithms, and write code. 
+This exercise is more about conveying your individual coding style 
+and how you deliver your work product to your teammates.
+
+Problem
+Given a JSON string which describes a menu, 
+calculate the SUM of the IDs of all "items", 
+as long as a "label" exists for that item.
+
+Input
+Your program should somehow take a file (or path to a file) as input:
+Additional Instructions & Tips
+1.	Post your solution to Github and make your code public so we can review. 
+2.	Choose:
+1.	Use whatever platform, tools, language(s) and coding environment you like.
+2.	Command-line apps, Web apps, APIs, and fat-client solutions are all equally valid, so choose whatever you are most comfortable with (or whichever best showcases your talents)
+3.	Write testable code and include tests in your solution
+4.	Make sure your solution is easy to build, run, test, and deploy (instructions are always nice. TIP: Include a useful Readme)
+
+
+
+dotnet new MVC -n UTIMCO
+code -r UTIMCO
+dotnet add package jQuery
+dotnet add package bootstrap
+dotnet add package Microsoft.AspNetCore
+dotnet add package Microsoft.AspNetCore.Http
+dotnet add package Microsoft.AspNetCore.Mvc
+dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
+dotnet add package Newtonsoft.Json
+dotnet new xunit1
+
+https://json2csharp.com/
+
+
+Things to do....
+Add Async deserialization
+Add Saving to SQLite
+Add Drag and Drop File
